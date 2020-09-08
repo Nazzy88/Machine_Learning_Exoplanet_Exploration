@@ -33,7 +33,7 @@ In this project, you will need to:
 
 ### Reporting
 
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+* Random Forest model is better than Support Vector Machine, even without hyper tuning the parameters with GridSearchCV. Of all the models considered (SVM, Random Forest and Gradient Boosting). Gradient Boosting model yielded highest accuracy of 91%.
 
 ## SVC
 ```
