@@ -48,6 +48,75 @@ FALSE POSITIVE       0.99      1.00      0.99       876
   weighted avg       0.85      0.85      0.85      1748
 
 ```
+## SVC with Hyperparameter Tuning
+
+```
+                precision    recall  f1-score   support
+
+     CANDIDATE       0.84      0.71      0.77       422
+     CONFIRMED       0.76      0.86      0.80       450
+FALSE POSITIVE       0.99      1.00      0.99       876
+
+      accuracy                           0.89      1748
+     macro avg       0.86      0.85      0.86      1748
+  weighted avg       0.89      0.89      0.89      1748
+  
+  ```
+  
+  ## Random Forest
+  
+  ```
+                precision    recall  f1-score   support
+
+     CANDIDATE       0.76      0.84      0.80       378
+     CONFIRMED       0.85      0.82      0.84       469
+FALSE POSITIVE       1.00      0.97      0.98       901
+
+      accuracy                           0.90      1748
+     macro avg       0.87      0.88      0.87      1748
+  weighted avg       0.91      0.90      0.90      1748
+  
+  ```
+ ## Random Forest with Hyperparameter Tuning
+  
+  ```
+                precision    recall  f1-score   support
+
+     CANDIDATE       0.84      0.75      0.79       422
+     CONFIRMED       0.81      0.86      0.83       450
+FALSE POSITIVE       0.97      1.00      0.99       876
+
+      accuracy                           0.90      1748
+     macro avg       0.88      0.87      0.87      1748
+  weighted avg       0.90      0.90      0.90      1748
+  
+  ```
+  ## Gradient Boosting
+  ```
+                  precision    recall  f1-score   support
+
+     CANDIDATE       0.85      0.79      0.82       422
+     CONFIRMED       0.82      0.85      0.83       450
+FALSE POSITIVE       0.99      1.00      0.99       876
+
+      accuracy                           0.91      1748
+     macro avg       0.88      0.88      0.88      1748
+  weighted avg       0.91      0.91      0.91      1748
+  ```
+  ## Gradient Boosting with Hyperparameter Tuning
+  
+  ```
+                precision    recall  f1-score   support
+
+     CANDIDATE       0.84      0.80      0.82       422
+     CONFIRMED       0.82      0.85      0.83       450
+FALSE POSITIVE       0.99      1.00      1.00       876
+
+      accuracy                           0.91      1748
+     macro avg       0.88      0.88      0.88      1748
+  weighted avg       0.91      0.91      0.91      1748
+  ```
+ 
 - - -
 
 ## Resources
