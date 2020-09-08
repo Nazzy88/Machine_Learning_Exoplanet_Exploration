@@ -35,6 +35,19 @@ In this project, you will need to:
 
 * Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
+## SVC
+```
+                precision    recall  f1-score   support
+
+     CANDIDATE       0.76      0.61      0.68       422
+     CONFIRMED       0.69      0.79      0.74       450
+FALSE POSITIVE       0.99      1.00      0.99       876
+
+      accuracy                           0.85      1748
+     macro avg       0.81      0.80      0.80      1748
+  weighted avg       0.85      0.85      0.85      1748
+
+```
 - - -
 
 ## Resources
