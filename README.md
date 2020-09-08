@@ -70,7 +70,7 @@ FALSE POSITIVE       0.99      1.00      0.99       876
 
      CANDIDATE       0.76      0.84      0.80       378
      CONFIRMED       0.85      0.82      0.84       469
-FALSE POSITIVE       1.00      0.97      0.98       901
+FALSE POSITIVE      1.00      0.97      0.98       901
 
       accuracy                           0.90      1748
      macro avg       0.87      0.88      0.87      1748
@@ -84,7 +84,7 @@ FALSE POSITIVE       1.00      0.97      0.98       901
 
      CANDIDATE       0.84      0.75      0.79       422
      CONFIRMED       0.81      0.86      0.83       450
-FALSE POSITIVE       0.97      1.00      0.99       876
+FALSE POSITIVE      0.97      1.00      0.99       876
 
       accuracy                           0.90      1748
      macro avg       0.88      0.87      0.87      1748
